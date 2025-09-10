@@ -8,23 +8,13 @@ This project simulates an IoT-based Weather Monitoring System. It includes both 
 
 Clone the repository.
 
-Create a virtual environment and install dependencies:
+Create a virtual environment 
+git clone https://github.com/marthanjoel/IoT-Weather-MONITORING-SYSTEM.git
+cd IoT-Weather-MONITORING-SYSTEM
 
-flask
-
-matplotlib
-
-pillow
-
-sqlite3 (default in Python)
-
-Set up the database:
-
-Run sqlite3 weather.db < schema.sql to initialize tables.
 
 Run the Tkinter simulation:
-
-python3 tk_weather.py
+python3 app.py
 
 
 
@@ -39,7 +29,7 @@ Humidity
 
 Pressure
 
-The tk_weather.py file uses Tkinter to create a simple weather dashboard.
+The app.py file uses Tkinter to create a simple weather dashboard.
 
 Values are randomly generated to simulate IoT sensor data.
 
