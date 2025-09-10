@@ -56,4 +56,4 @@ Deploy a web-based dashboard (Flask + Charts).
 
 Add mobile app support again with updated Flutter SDK.
 
-✅ This repo now runs locally with Tkinter (tk_weather.py) so you can visualize sensor readings without external devices.
+✅ This repo now runs locally with Tkinter (app.py) so you can visualize sensor readings without external devices.
